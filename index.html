@@ -1,0 +1,47 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Queue Management System</title>
+    <link rel="stylesheet" href="style.css">
+</head>
+<body>
+    
+    
+    <h1> Green University Queue Management System</h1>
+    <div class="studentData">
+        <div >
+            <label for="name">Name:</label>
+            <input type="text" id="name" placeholder="Enter student name">
+        </div>
+    
+        <div>
+            <label for="purpose">Purpose:</label>
+            <select  name="Purpose" id="purpose">
+                <option disabled selected>Select Your Reaseon</option>
+                <option value="Tution Payment">Tution Payment</option>
+                <option value="Certificate Varification">Certificate Varification</option>
+                <option value="Accaunt Incuary">Accaunt Incuary</option>
+                <option value="Pre Registation Problem">Pre Registation Problem</option>
+                <option value="Corse Drope">Corse Drope</option>
+                <option value="Other">Other</option>
+            </select>
+            <!-- <input type="text" id="purpose" placeholder="Enter purpose"> -->
+        </div>
+    </div>
+    
+
+    <button id="addStudent">Add Student</button>
+    <button id="serveStudent">Serve Student</button>
+    <button id="viewQueue">View Queue</button>
+    <button id="countStudents">Count Students</button>
+
+    <div id="output"></div>
+    <br>
+    <br>
+    <div id="queue"></div>
+
+    <script src="castom.js"></script>
+</body>
+</html>

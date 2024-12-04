@@ -1,0 +1,31 @@
+body{
+    padding-top: 50px;
+    text-align: center;
+
+    background-color:darkgrey
+}
+h1{
+    color: rgb(255, 191, 0);
+}
+/* 
+.studentData{
+    font-size: 25px;
+    
+}
+
+ input {
+    padding: 10px;
+    margin-bottom: 5px;
+    
+
+}
+
+button {
+    padding: 5px;
+    border-radius: 5px;
+}
+
+option{
+    padding: 10px;
+    margin-bottom: 5px;
+} */
